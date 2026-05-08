@@ -65,7 +65,7 @@ python -m venv .venv
 # 安装依赖
 pip install -r requirements.txt
 # 启动（示例）
-python app/main.py
+python -m main.py
 ```
 
 说明：具体启动命令取决于 `app/main.py` 中的入口实现，若使用 `uvicorn` 或 `flask` 请按相应方式启动，例如 `uvicorn app.main:app --reload`。
