@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS ai_chat_assistant
+  CHARACTER SET utf8mb4
+  COLLATE utf8mb4_unicode_ci;
+
+USE ai_chat_assistant;
+
+CREATE TABLE IF NOT EXISTS app_state (
+  state_key VARCHAR(64) PRIMARY KEY,
+  state_json JSON NOT NULL,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
