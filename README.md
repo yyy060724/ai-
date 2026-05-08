@@ -1,6 +1,6 @@
 # ai智能对话助手
 
-简体中文说明文档 — 本仓库包含一个前端（Vite + Vue）、后端 Node 服务和 Python 辅助服务的示例项目。
+本仓库包含一个前端（Vite + Vue）、后端 Node 服务和 Python 辅助服务的示例项目。
 
 ## 项目概览
 - 前端：位于 `front/`，使用 Vite + Vue + TypeScript。
