@@ -65,10 +65,11 @@ python -m venv .venv
 # 安装依赖
 pip install -r requirements.txt
 # 启动（示例）
-python -m main.py
+python -m app.main
 ```
 
 说明：具体启动命令取决于 `app/main.py` 中的入口实现，若使用 `uvicorn` 或 `flask` 请按相应方式启动，例如 `uvicorn app.main:app --reload`。
+！：先启动虚拟环境，虚拟环境用绝对路径最好，模块化：-m
 
 3) 后端（Node 服务）
 
